@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <title>Previsão do Tempo</title>
+</head>
+
+<body>
+  <div class="caixa-maior">
+    <input class="input-cidade" placeholder="Digite a cidade" />
+
+    <button id="buscar" onclick="cliqueiNoBotao()">
+      <i class="fa-solid fa-magnifying-glass"></i>
+
+    </button>
+
+    <div class="caixa-media">
+      <h2 class="cidade">Tempo em São Paulo</h2>
+
+      <p class="temp">28°C</p>
+
+      <div class="caixa-menor">
+        <img class="icone" src="https://openweathermap.org/img/wn/04n.png" />
+        <p class="texto-previsao">nublado</p>
+      </div>
+      <div class=".detalhes-tempo">
+      <p class="umidade"><i class="fa-solid fa-droplet"></i>
+        <span>78%</span> </p>
+        <p class="vento"><i class="fa-solid fa-wind"></i>
+          <span>3km/h</span></p>
+        </div>
+    </div>
+  </div>
+</body>
+<script src="/js/scripts.js"></script>
+</script>
+
+</html>
